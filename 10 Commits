@@ -1,0 +1,87 @@
+Commit 1 — Project creation
+Initial Android Studio project setup
+Include:
+settings.gradle
+build.gradle
+gradle.properties
+app/build.gradle
+AndroidManifest.xml
+Basic project structure
+
+Commit 2 — Resources
+Add application themes and resources
+Include:
+res/values/colors.xml
+res/values/strings.xml
+res/values/themes.xml
+Drawable resources
+Launcher/application resources
+
+Commit 3 — Main interface
+Create main activity and dashboard layout
+Include:
+MainActivity.java
+activity_main.xml
+Dashboard/navigation components
+
+Commit 4 — Pantry model
+Implement pantry item data model
+Include:
+PantryItem.java
+Ingredient name
+Quantity
+Unit
+Getters/setters
+
+Commit 5 — Database
+Add SQLite database helper
+Include:
+DatabaseHelper.java
+SQLite database creation
+Pantry table
+Database columns
+
+Commit 6 — Pantry management
+Implement pantry item CRUD operations
+Include:
+Add item
+View items
+Edit item
+Delete item
+Database operations
+
+Commit 7 — Pantry list
+Create pantry item adapter and RecyclerView
+Include:
+PantryAdapter.java
+RecyclerView
+Pantry item cards/rows
+Edit/delete controls
+
+Commit 8 — Recipe matching
+Implement recipe matching functionality
+Include:
+Recipe model
+Recipe data
+Ingredient matching logic
+Matching recipes using available pantry ingredients
+No-shopping-trip requirement
+
+Commit 9 — Validation
+Add input validation and user feedback
+Include:
+Empty-field validation
+Quantity validation
+Error messages
+Success messages
+Empty pantry handling
+
+Commit 10 — Final testing
+Complete Smart Pantry Manager UI and testing
+Include:
+UI improvements
+Navigation fixes
+Database testing
+Recipe matching testing
+Bug fixes
+Final cleanup
