@@ -1,11 +1,42 @@
-# Smart-Pantry-Manager
+# Smart Pantry Manager
 
-This repository contains the source code and project files used to develop my Android application. I can see the different files and folders that make up the Android Studio project, including the Java source files, XML layouts, database implementation, and project configuration files.
+Java Android application for the Mobile App Development 700 practical assignment.
 
-I’m now opening the commit history. The commits show how the project developed over time, starting with the initial project setup and then progressing through the main application features.
+## Main features
+- Add pantry items
+- Edit pantry items
+- Delete pantry items
+- Store data locally using SQLite
+- RecyclerView adapter
+- Multiple Activities and Intents
+- Recipe matching using only ingredients already in the pantry
+- No Firebase, PostgreSQL, Google Maps, GPS, payments, or external backend
 
-As development continued, I added the pantry management functionality, including adding, editing, viewing, and deleting pantry items. I then implemented the SQLite database and the recipe-matching functionality.
+## Recommended environment
+- Android Studio
+- JDK 17
+- Android SDK Platform 35
+- Android SDK Build-Tools 35.x
+- Android Emulator or physical Android phone
+- Internet connection for the first Gradle sync
 
-The commit history provides a record of these changes and demonstrates how the project evolved from the initial setup into the working Smart Pantry Manager application.
+## Opening the project
+1. Extract the ZIP.
+2. Open Android Studio.
+3. Choose Open.
+4. Select the SmartPantryManager folder.
+5. Allow Gradle to sync.
+6. Install any SDK components Android Studio reports as missing.
+7. Create/start an Android emulator, or connect a USB-debugging-enabled Android phone.
+8. Press Run.
 
-This repository therefore provides both the final project files and a development history of the application.”
+## Important
+## Build configuration
+- Android Gradle Plugin: 8.9.2
+- Gradle: 8.11.1
+- Compile SDK: 35
+- Target SDK: 35
+- Minimum SDK: 23
+- Java language level: 17
+
+If Android Studio asks for a Gradle installation, select/install Gradle 8.11.1 for this project. Android Studio's bundled JDK can be used for the IDE; the project source/target compatibility is Java 17.
