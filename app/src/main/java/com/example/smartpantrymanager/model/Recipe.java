@@ -1,0 +1,1 @@
+package com.example.smartpantrymanager.model; import java.util.*; public class Recipe { public long id; public String name,instructions; public List<String> ingredients=new ArrayList<>(); public Recipe(long id,String name,String instructions){this.id=id;this.name=name;this.instructions=instructions;} }

@@ -1,0 +1,1 @@
+package com.example.smartpantrymanager.model; public class PantryItem { public long id; public String name,unit,expiry,category; public double quantity; public PantryItem(){} public PantryItem(long id,String name,double quantity,String unit,String expiry,String category){this.id=id;this.name=name;this.quantity=quantity;this.unit=unit;this.expiry=expiry;this.category=category;} }

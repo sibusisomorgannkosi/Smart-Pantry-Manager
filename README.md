@@ -1,42 +1,17 @@
 # Smart Pantry Manager
 
-Java Android application for the Mobile App Development 700 practical assignment.
+Java/XML Android application for managing pantry items and finding recipes that can be made using only ingredients already available.
 
-## Main features
-- Add pantry items
-- Edit pantry items
-- Delete pantry items
-- Store data locally using SQLite
-- RecyclerView adapter
-- Multiple Activities and Intents
-- Recipe matching using only ingredients already in the pantry
-- No Firebase, PostgreSQL, Google Maps, GPS, payments, or external backend
+## Stack
+Java 17, Android SDK 35, min SDK 23, SQLiteOpenHelper, AndroidX and Material Components.
 
-## Recommended environment
-- Android Studio
-- JDK 17
-- Android SDK Platform 35
-- Android SDK Build-Tools 35.x
-- Android Emulator or physical Android phone
-- Internet connection for the first Gradle sync
+## Features
+- Add, view and delete pantry items
+- Local SQLite persistence
+- Strict recipe matching: every required ingredient must already exist in the pantry with quantity greater than zero
+- Recipe detail screen and Activity/Intent navigation
 
-## Opening the project
-1. Extract the ZIP.
-2. Open Android Studio.
-3. Choose Open.
-4. Select the SmartPantryManager folder.
-5. Allow Gradle to sync.
-6. Install any SDK components Android Studio reports as missing.
-7. Create/start an Android emulator, or connect a USB-debugging-enabled Android phone.
-8. Press Run.
+## Run
+Open this repository in Android Studio, allow Gradle sync, install SDK 35 if prompted, and run on an emulator or Android device.
 
-## Important
-## Build configuration
-- Android Gradle Plugin: 8.9.2
-- Gradle: 8.11.1
-- Compile SDK: 35
-- Target SDK: 35
-- Minimum SDK: 23
-- Java language level: 17
-
-If Android Studio asks for a Gradle installation, select/install Gradle 8.11.1 for this project. Android Studio's bundled JDK can be used for the IDE; the project source/target compatibility is Java 17.
+No Firebase, PostgreSQL, GPS, Google Maps, payments or external backend are required.
