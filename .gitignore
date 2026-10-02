@@ -1,0 +1,46 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.ap_
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio specific files
+.idea/
+.idea/caches
+.idea/codeStyles
+.idea/inspectionProfiles
+.idea/misc.xml
+.idea/modules.xml
+.idea/shelf
+.idea/workspace.xml
+*.iml
+*.ipr
+*.iws
+
+# IntelliJ
+*.pem
+*.jks
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Maven
+target/
+.settings/
+.classpath
+.project
+
+# Misc
+*.swp
+*.swo
+*~
+.env
+.env.local
