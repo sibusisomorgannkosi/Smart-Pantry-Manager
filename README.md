@@ -55,7 +55,3 @@ Database functionality, persistence, adapters, recipe matching, validation and f
 ## Course
 
 Mobile App Development 700
-
-## License
-
-This project is created for educational purposes as part of a university assignment.
